@@ -1,0 +1,7 @@
+.gradle/
+build/
+run/
+run2/
+.env
+*.py
+*.sh

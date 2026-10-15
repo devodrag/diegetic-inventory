@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "diegetic_inventory",
+  "version": "${version}",
+  "name": "Diegetic Inventory",
+  "description": "Diegetic shared inventory for Fabric 1.21.4: displays your real-time inventory, cursor movements, and dragged stacks as an immersive floating panel visible to other players in multiplayer.",
+  "authors": [
+    "devodrag"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/diegetic_inventory/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.diegetic.inventory.DiegeticInventoryMod"
+    ],
+    "client": [
+      "net.diegetic.inventory.client.DiegeticInventoryClient"
+    ]
+  },
+  "mixins": [
+    "dynamic_inventory.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": ">=1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

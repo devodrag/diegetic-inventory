@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "net.diegetic.inventory.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "client": [
+    "HandledScreenMixin",
+    "IntegratedServerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
